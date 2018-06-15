@@ -47,15 +47,15 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item {% if page.url == index.html %}active{% endif %}"><a class="nav-link" href="index.html"><span style="color:#3498DB">Home</span></a></li>
-                        <li class="nav-item {% if page.url == service.html %}active{% endif %}"><a class="nav-link" href="service.html"><span style="color:#3498DB">Services</span></a></li>
-                        <li class="nav-item {% if page.url == portfolio.html %}active{% endif %}"><a class="nav-link" href="portfolio.html"><span style="color:#3498DB">Gallery</span></a></li>
+                        <li class="nav-item "><a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="service.html">Services</a></li>
+                        <li class="nav-item {% if page.url == portfolio.html %}active{% endif %}"><a class="nav-link" href="portfolio.html">Gallery</a></li>
                       <!--  <li class="nav-item {% if page.url == elements.html %}active{% endif %}"><a class="nav-link" href="elements.html"><span style="color:#3498DB">Features</span></a></li>-->
                         
                         
                        <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span style="color:#3498DB">Features</span>
+                            Features
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
@@ -63,8 +63,8 @@
                                 <!--<li class="nav-item"><a class="nav-link" href="elements.html">Production</a></li>-->
                             </ul>
                         </li>
-                        <li class="nav-item {% if page.url == about-us.html %}active{% endif %}"><a class="nav-link" href="about-us.html"><span style="color:#3498DB">About Us</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html"><span style="color:#3498DB">Contact</span></a></li>
+                        <li class="nav-item {% if page.url == about-us.html %}active{% endif %}"><a class="nav-link" href="about-us.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>

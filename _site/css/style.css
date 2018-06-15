@@ -228,7 +228,7 @@ i:before {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: #2bb6f2;
   letter-spacing: .65px;
   padding: 0px;
   line-height: 118px;
@@ -301,8 +301,19 @@ i:before {
   }
 }
 
-.main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #0b1033;
+.main_menu_area .navbar .navbar-nav li:hover a {
+  color: #260cce;
+}
+
+.main_menu_area .navbar .navbar-nav li a:active {
+  text-decoration: underline;
+  color: #260cce;
+}
+
+.main_menu_area .navbar .navbar-nav .nav-item .current {
+  text-decoration: underline;
+  background-color: red;
+  color: #260cce;
 }
 
 .main_menu_area.navbar_fixed {
