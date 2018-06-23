@@ -26,6 +26,13 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
+            <style>
+                #rcorners1 {
+        	       border: #000088;
+                    border-radius: 18px;
+                }
+            </style>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -33,7 +40,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body id="page_gallery">
 
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
@@ -47,24 +54,24 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item "><a class="" href="/index.html">Home</a></li>
-                        <li class="nav-item "><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item "><a class="nav-link" href="portfolio.html">Gallery</a></li>
-                      <!--  <li class="nav-item "><a class="nav-link" href="elements.html"><span style="color:#3498DB">Features</span></a></li>-->
-                        
-                        
-                       <li class="nav-item dropdown submenu">
+                        <li class="nav-item "><a class="link_index" href="/index.html">Home</a></li>
+                        <li class="nav-item"><a class="link_product" href="elements.html">Products</a></li>
+                        <li class="nav-item "><a class="link_service" href="service.html">Services</a></li>
+                        <li class="nav-item "><a class="link_gallery" href="portfolio.html">Gallery</a></li>
+
+
+                    <!--   <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Features
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
                                 <li class="nav-item"><a class="nav-link" href="single-blog.html">Details</a></li>
-                                <!--<li class="nav-item"><a class="nav-link" href="elements.html">Production</a></li>-->
+                                <li class="nav-item"><a class="nav-link" href="elements.html">Production</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item "><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </li> -->
+                        <li class="nav-item "><a class="link_about" href="about-us.html">About Us</a></li>
+                        <li class="nav-item"><a class="link_contact" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -82,17 +89,6 @@
 </section>
 <!--================End Banner Area =================-->
 
-<head><link rel="stylesheet" href="./dist/css/lightbox.min.css">
-
-    <style> 
-        #rcorners1 {
-	       border: #000088;
-            border-radius: 18px;   
-        }
-    </style>
-
-</head>
-
 <!--================Portfolio Area =================-->
 <section class="portfolio_area">
     <div class="container">
@@ -106,7 +102,7 @@
             </ul>
         </div>
     </div>
-    
+
     <!--
     <div class="ms_portfolio_inner">
         <div class="ms_p_item wd_50 brand arc photo">
@@ -145,30 +141,30 @@
 --/>
     </div>
 -->
-    
-    
+
+
     <section>
         <div align="center" style="padding-bottom: 50px;">
-            <a class="example-image-link" href="./img/portfolio/factory/front-left.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front-Left</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front-left.jpeg" width="500" height="340"  alt="" /></a>
-        
-        
+            <a class="example-image-link" href="./img/portfolio/factory/front-left.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front-Left</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front-left.jpeg" style="width:100%; height:auto; margin:0 auto;"  alt="" /></a>
+
+
             <a class="example-image-link" href="./img/portfolio/factory/front1.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front1.jpeg" width="500" height="340" alt="" /></a>
-        
-        
+
+
             <a class="example-image-link" href="./img/portfolio/factory/front-right.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front-Right</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front-right.jpeg" width="500" height="340" vspace="5" alt="" /></a>
-        
+
             <br>
             <a class="example-image-link" href="./img/portfolio/factory/inner1.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-1</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner1.jpeg" width="500" height="340" alt="" /></a>
-        
+
             <a class="example-image-link" href="./img/portfolio/factory/inner2.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-2</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner2.jpeg" width="500" height="340" alt="" /></a>
-        
-            <a class="example-image-link" href="./img/portfolio/factory/inner3.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-3</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner3.jpeg" width="500" height="340" alt="" /></a>
-            
+
+            <a class="example-image-link" href="./img/portfolio/factory/inner3.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-3</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner3.jpeg" style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
+
             <br>
         </div>
     </section>
-    
-    
+
+
 </section>
 
  <script src="./dist/js/lightbox-plus-jquery.js"></script>

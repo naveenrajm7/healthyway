@@ -26,10 +26,10 @@ Table of Content:
 06/ feature
 07/ button
 08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
+09/ testimonials
+10/ blog
+11/ contact
+12/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
@@ -303,6 +303,7 @@ i:before {
 
 .main_menu_area .navbar .navbar-nav li:hover a {
   color: #260cce;
+  border-bottom: .25em solid #00bfff;
 }
 
 .main_menu_area .navbar .navbar-nav li a:active {
@@ -314,6 +315,12 @@ i:before {
   text-decoration: underline;
   background-color: red;
   color: #260cce;
+}
+
+/* active page indicator */
+#page_index .link_index, #page_product .link_product, #page_service .link_service, #page_about .link_about, #page_contact .link_contact, #page_gallery .link_gallery {
+    font-weight: bold;
+    border-bottom: .25em solid #00bfff;
 }
 
 .main_menu_area.navbar_fixed {
