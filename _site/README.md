@@ -1,2 +1,3 @@
 # healthyway
-A business Website 
+A business Website
+jekyll serve --baseurl=""
