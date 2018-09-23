@@ -288,6 +288,7 @@ i:before {
   text-shadow: none;
 }
 
+/* hover effect */
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
   color: #97ccfe;
 }
