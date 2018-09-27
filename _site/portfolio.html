@@ -25,7 +25,9 @@
 
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+
         <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
 
             <style>
                 #rcorners1 {
@@ -56,7 +58,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item "><a class="link_index" href="index">Home</a></li>
                         <li class="nav-item"><a class="link_product" href="elements">Products</a></li>
-                        <li class="nav-item "><a class="link_service" href="service">Services</a></li>
+                        <li class="nav-item "><a class="link_service" href="service">Process</a></li>
                         <li class="nav-item "><a class="link_gallery" href="portfolio">Gallery</a></li>
 
 
@@ -95,9 +97,9 @@
         <div class="portfolio_filter">
             <ul>
                 <li class="active" data-filter="*"><a href="#">All</a></li>
-                <li data-filter=".brand"><a href="#">Brand identity</a></li>
-                <li data-filter=".design"><a href="#">Design</a></li>
-                <li data-filter=".arc"><a href="#">Architecture</a></li>
+                <li data-filter=".brand"><a href="#brand">Brand identity</a></li>
+                <li data-filter=".inside"><a href="#inside">Inside</a></li>
+                <li data-filter=".outside"><a href="#outside">Outside</a></li>
                 <li data-filter=".photo"><a href="#">Photography</a></li>
             </ul>
         </div>
@@ -141,33 +143,63 @@
 --/>
     </div>
 -->
-
-
-    <section>
-        <div align="center" style="padding-bottom: 50px;">
-            <a class="example-image-link" href="./img/portfolio/factory/front-left.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front-Left</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front-left.jpeg" style="width:100%; height:auto; margin:0 auto;"  alt="" /></a>
-
-
-            <a class="example-image-link" href="./img/portfolio/factory/front1.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front1.jpeg" style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
-
-
-            <a class="example-image-link" href="./img/portfolio/factory/front-right.jpeg" data-lightbox="example-set" data-title="<h2>Campus Front-Right</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/front-right.jpeg" style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
-
-            <br>
-            <a class="example-image-link" href="./img/portfolio/factory/inner1.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-1</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner1.jpeg"  style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
-
-            <a class="example-image-link" href="./img/portfolio/factory/inner2.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-2</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner2.jpeg" style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
-
-            <a class="example-image-link" href="./img/portfolio/factory/inner3.jpeg" data-lightbox="example-set" data-title="<h2>Campus Interiors-3</h2>"><img id="rcorners1" class="example-image" src="./img/portfolio/factory/inner3.jpeg" style="width:100%; height:auto; margin:0 auto;" alt="" /></a>
-
-            <br>
-        </div>
-    </section>
-
-
 </section>
 
- <script src="./dist/js/lightbox-plus-jquery.js"></script>
+<div class ="container">
+<div class="row justify-content-center">
+    <div class="col-md-12">
+
+        <div class="row" id="brand">
+            <div class="row thumbnail" style="margin-top:100px;">
+                <div class="col-md-4 ">
+                    <a href="./img/home-slider/8to10-.png" data-lightbox="gallery" data-title="<h2>8 To 10</h2>"> <img src="./img/home-slider/8to10-.png"  class="img-fluid" alt="" /></a>
+                </div>
+                <div class="col-md-4 ">
+                    <a href="img/home-slider/8to10.png" data-lightbox="gallery" data-title="<h2>8 to 10</h2>"><img src="img/home-slider/8to10.png" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="col-md-4 ">
+                    <a href="./img/home-slider/8to10--.png" data-lightbox="gallery" data-title="<h2>8to10</h2>"><img src="./img/home-slider/8to10--.png" class="img-fluid" alt="" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="outside">
+            <div class="row thumbnail" style="margin-top:100px;">
+                <div class="col-md-4 ">
+                    <a href="./img/portfolio/factory/front-left.jpeg" data-lightbox="gallery" data-title="<h2>Campus Front-Left</h2>"> <img src="./img/portfolio/factory/front-left.jpeg"  class="img-fluid" alt="" /></a>
+                </div>
+                <div class="col-md-4 ">
+                    <a href="./img/portfolio/factory/front1.jpeg" data-lightbox="gallery" data-title="<h2>Campus Front</h2>"><img src="./img/portfolio/factory/front1.jpeg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="col-md-4 ">
+                    <a href="./img/portfolio/factory/front-right.jpeg" data-lightbox="gallery" data-title="<h2>Campus Front-Right</h2>"><img src="./img/portfolio/factory/front-right.jpeg" class="img-fluid" alt="" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="inside">
+            <div class="row thumbnail" style="margin-top:100px;">
+                <div class="col-sm-4 ">
+                    <a href="./img/portfolio/factory/inner1.jpeg" data-lightbox="gallery" alt="or create memorable moments a"><img src="./img/portfolio/factory/inner1.jpeg" class="img-fluid"></a>
+                </div>
+
+                 <div class="col-sm-4 img-box ">
+                     <a href="./img/portfolio/factory/inner2.jpeg" data-lightbox="gallery" alt="or create memorable moments a"><img src="./img/portfolio/factory/inner2.jpeg" class="img-fluid"></a>
+                </div>
+
+                 <div class="col-sm-4 img-box ">
+                     <a href="./img/portfolio/factory/inner3.jpeg" data-lightbox="gallery" alt="or create memorable moments a"><img src="./img/portfolio/factory/inner3.jpeg" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+<script src="./dist/js/lightbox-plus-jquery.js"></script>
 <!--================End Portfolio Area =================-->
 
 
@@ -292,5 +324,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/smoothscroll.js"></script>
 
         <script src="js/theme.js"></script>
+
+
     </body>
 </html>
